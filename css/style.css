@@ -1,0 +1,293 @@
+/*
+@font-face {
+    font-family: Exodus;
+    src: url(../fonts/ExodusDemo-Regular.otf);
+  }
+
+*/
+
+.navbar-item img {
+    width: 80px;
+    min-height: auto;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-burger {
+    margin: 0 30px 0 auto;
+    height: 100%;
+}
+
+#changing-images {
+    min-height: 930px;
+}
+
+.small-pics img {
+    cursor: pointer;
+}
+
+.skills {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+ul.skillslist {
+    margin-left: 4vw;
+  }
+
+ul.main {
+    list-style-type: square;
+    margin-left: 2vw;
+}
+
+body{
+    text-rendering: optimizeLegibility;
+}
+
+.button{
+    border-width: 0px;
+}
+
+/* GALLERY */
+.gallery-section {
+    width: 100%;
+    margin: 0px auto 50px;
+}
+.gallery-content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+}
+
+
+
+.bannertop{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url("../images/bannertop.JPG");
+    max-width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about-bg{
+    background-image:linear-gradient(
+        rgba(77, 2, 252, 0.2),
+        rgba(87, 228, 22, 0.2)
+      ), url("../images/about.JPG");
+    max-width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+div.clickEffect{
+position:fixed;
+box-sizing:border-box;
+border-style:solid;
+border-color:linear-gradient(to left, #c7a615, #d53a9d);
+border-radius:50%;
+animation:clickEffect 0.6s ease-out;
+z-index:99999;
+}
+
+@keyframes clickEffect{
+0%{
+opacity:1;
+width:0.5em; height:0.5em;
+margin:-0.25em;
+border-width:0.5em;
+}
+100%{
+opacity:0.2;
+width:15em; height:15em;
+margin:-7.5em;
+border-width:0.03em;
+	}
+}
+
+.partners{
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title-text
+{
+	font-size: 36px;
+}
+
+@media screen and (max-width: 768px){
+#wrapper
+{
+  padding-top: 15px;
+}
+.title-text
+{
+	font-size: 20px;
+}
+.picture
+{
+	height: 100px;
+}
+.title.is-2
+{
+    font-size: 1.5rem;
+}
+.title.is-1
+{
+    font-size: 1.5rem;
+}
+p
+{
+	text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}
+.button
+{
+  margin:auto;
+}
+#s3button
+{
+text-align: center!important;
+}
+#bannertext{
+text-align: left;
+}
+#bannerintro{
+    margin-top: 60px;
+}
+#mobile-nav-button{
+    float: right;
+}
+.skills {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+ul.main {
+    margin-left: 7vw;
+}
+.about-bg{
+    background-position: left top;   
+}
+}
+
+.earth{
+    background: url(../images/earth2.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title {
+    line-height: normal;
+}
+
+.gradient:hover {
+    background: linear-gradient(-45deg, #53D6FF, #666BE1, #E45372, #F07C63);
+    background-size: 400% !important;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+/* Animation Keyframes */
+
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.gradientbg {
+    background: linear-gradient(-45deg, #53D6FF, #666BE1, #E45372, #F07C63);
+    background-size: 400% !important;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+/* Animation Keyframes */
+
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/* #bannerintro .overlay {
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 100%;
+    height: 93.5%;
+    opacity: .2;
+	background-color: #3a3a3a;
+}
+*/
+
+
+/*
+.container {
+    max-width: 1300px;
+}
+
+
+/*
+#under-nav-content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+*/
+
+/*
+.picture {
+    max-width: 100%;
+    height: 500px;
+    background-image: url("../images/bannertop.JPG");
+    background-position: center center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+*/
+
+/*
+.big-pic img {
+}
+*/
